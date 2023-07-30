@@ -13,8 +13,8 @@ Config.PawnLocation = {
         },
     }
 
-Config.BankMoney = false -- Set to true if you want the money to go into the players bank
-Config.UseTimes = false -- Set to false if you want the pawnshop open 24/7
+Config.BankMoney = true -- Set to true if you want the money to go into the players bank
+Config.UseTimes = true -- Set to false if you want the pawnshop open 24/7
 Config.TimeOpen = 7 -- Opening Time
 Config.TimeClosed = 17 -- Closing Time
 Config.SendMeltingEmail = true
@@ -61,8 +61,8 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
         item = 'goldchain',
         rewards = {
             [1] = {
-                item = 'goldbar',
-                amount = 2
+                item = 'goldingot',
+                amount = 1
             }
         },
         meltTime = 0.15
@@ -75,7 +75,7 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
                 amount = 1
             },
             [2] = {
-                item = 'goldbar',
+                item = 'goldingot',
                 amount = 1
             }
         },
@@ -89,7 +89,7 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
                 amount = 1
             },
             [2] = {
-                item = 'goldbar',
+                item = 'goldingot',
                 amount = 1
             },
             [3] = {
@@ -107,7 +107,7 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
                 amount = 5
             },
             [2] = {
-                item = 'goldbar',
+                item = 'goldingot',
                 amount = 1
             }
         },
