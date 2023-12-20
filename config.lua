@@ -77,7 +77,43 @@ Config.PawnItems = {
     [14] = {
         item = 'flatscreen',
         price = math.random(100,500)
-    }
+    },
+    [15] = {
+        item = 'atmmotherboard',
+        price = math.random(100,500)
+    },
+    [16] = {
+        item = 'atmcables',
+        price = math.random(100,500)
+    },
+    [17] = {
+        item = 'atmpanel',
+        price = math.random(100,500)
+    },
+    [18] = {
+        item = 'flight_artpiece',
+        price = math.random(50,100)
+    },
+    [19] = {
+        item = 'flight_suitcase',
+        price = math.random(100,500)
+    },
+    [20] = {
+        item = 'flight_television',
+        price = math.random(100,500)
+    },
+    [21] = {
+        item = 'flight_painting',
+        price = math.random(100,500)
+    },
+    [22] = {
+        item = 'flight_painting2',
+        price = math.random(100,500)
+    },
+    [23] = {
+        item = 'flight_guitar',
+        price = math.random(100,500)
+    },
 }
 
 Config.MeltingItems = { -- meltTime is amount of time in minutes per item
